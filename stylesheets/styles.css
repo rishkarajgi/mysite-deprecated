@@ -1,0 +1,128 @@
+ @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
+
+ body {
+   background: #EEEEF4;
+   color: #999;
+   font-family: Roboto;
+ }
+ 
+ h1 {
+   font-weight: 100;
+   font-size: 35pt;
+   color: #E43;
+ }
+ 
+ p {
+   font-weight: 300;
+ }
+.absolute{
+  position:absolute;
+}
+ .warning-content {
+   top: 25%;
+   max-width: 500px;
+   text-align: center;
+   margin: auto;
+ }
+ 
+ .button {
+   border: none;
+   background-color: #FF7486;
+   padding: 20px 55px;
+   border-radius: 10px;
+   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.19);
+   color: #fff;
+   text-transform: uppercase;
+   margin-top: 15px;
+   cursor: pointer;
+ }
+ /*/////////////////////////    svg    //////////////////////////////*/
+ 
+ svg#pennello {
+   width: 130px;
+ }
+ 
+ .vernice {
+   fill: none;
+   stroke: #FF5886;
+   stroke-width: 211px;
+   stroke-dasharray: 525px;
+   stroke-dashoffset: 460px;
+   transition: all 3s;
+ }
+ 
+ .verniceOver {
+   stroke-dashoffset: 0px;
+ }
+ 
+ .brush {
+   transform: translateY(-456px);
+   transition: all 3s;
+ }
+ 
+ .brushOver {
+   transform: translateY(0px);
+ }
+ 
+ .gocce {
+   opacity: 0;
+   transition: all 1s;
+ }
+ 
+ .gocceOver {
+   opacity: 1;
+   transition-delay: 3s;
+ }
+ 
+ .st0 {
+   fill: none;
+   stroke: #FF5886;
+   stroke-width: 201;
+   stroke-miterlimit: 10;
+ }
+ 
+ .st2 {
+   fill: none;
+ }
+ 
+ .st3 {
+   fill: none;
+   stroke: #282828;
+   stroke-width: 5.908;
+   stroke-linecap: round;
+   stroke-miterlimit: 10;
+ }
+ 
+ .st4 {
+   fill: #FF0086;
+ }
+ 
+ .st5 {
+   fill: #FF5886;
+ }
+ 
+ .st6 {
+   fill: #FF7486;
+ }
+ 
+ .st7 {
+   fill: none;
+   stroke: #282828;
+   stroke-width: 11.8159;
+   stroke-miterlimit: 10;
+ }
+ 
+ .st8 {
+   fill: #53D398;
+ }
+ 
+ .st9 {
+   fill: #439B6F;
+ }
+ 
+ .st10 {
+   fill: none;
+   stroke: #282828;
+   stroke-width: 2.954;
+   stroke-miterlimit: 10;
+ }
