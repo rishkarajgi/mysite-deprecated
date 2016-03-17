@@ -42,7 +42,7 @@ author:
       major: Computer Science and Engineering
       started: 2013
       duration: (2013 - 2017)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      description: 
     - education2:
       organization: Indian School Of Business
       location: Hyderabad, India
@@ -50,7 +50,7 @@ author:
       major: Technology Entrepreneurship
       started: 2015
       duration: (2015 - 2017)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      description:
   languages:
     - language1:
       name: Marathi
