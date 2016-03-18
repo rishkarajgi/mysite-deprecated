@@ -66,13 +66,13 @@ author:
       name: HTML/CSS
       percentage: 100%
     - skill2:
-      name: C++
-      percentage: 90%
-    - skill3:
       name: JavaScript
       percentage: 70%
+    - skill3:
+      name: C/C++
+      percentage: 70%
     - skill4:
-      name: AngularJS
+      name: Python
       percentage: 70%
     - skill5:
       name: Java/Java EE
