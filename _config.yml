@@ -33,24 +33,55 @@ author:
       title: Web Designer and Developer
       started: 2014
       duration: (2014 - 2015)
-      description: 
+      description: "Design, develop and extend maintenance services for software and websites to fulfill the IT needs of the institution. This Cell coordinates with the ITSCC (IT Services Coordination Committee) of the institute for deploying IT services.
+        <ul>
+          <li>College Website (www.nitw.ac.in)</li>
+          <li>Student Registration</li>
+          <li>Online Mess and Hostel Allotment</li>
+          <li>Alumni onboarding request automation</li>
+          </ul>" 
   educationHistory:
     - education1:
-      organization: National Institute of Technology, Warangal
-      location: Warangal, India
-      degree: B.Tech
-      major: Computer Science and Engineering
-      started: 2013
-      duration: (2013 - 2017)
-      description: 
-    - education2:
       organization: Indian School Of Business
       location: Hyderabad, India
       degree: Masters
       major: Technology Entrepreneurship
       started: 2015
       duration: (2015 - 2017)
-      description:
+      description: "A program that provides guidance and support to develop own's own product / service and launch their own technical venture and provide opportunities to build robust partnerships with corporates and government agencies"
+    - education2:
+      organization: National Institute of Technology, Warangal
+      location: Warangal, India
+      degree: B.Tech
+      major: Computer Science and Engineering
+      started: 2013
+      duration: (2013 - 2017)
+      description: "Ranked amongst the top 15 institutions of the country and amongst top 10 in Computer Science.
+      Activities undertaken:
+      <ul>
+      <li>Additional Secretary of Quiz Club</li>
+      <li>Founded Q-Factor - One of the largest inter-college quizzing festivals of the state</li>
+      <li>IEEE Student body member</li>
+      <li>Web Developer at WSDC</li>
+      <li>Varsity Tennis team</li></ul>"
+    - education3:
+      organization: Indian School Muscat
+      location: Muscat, Oman
+      degree: High School
+      major: CBSE
+      started: 2001
+      duration: (2001 - 2013)
+      description: "
+      Academics:
+      <ul>
+      <li>All India CBSE class X Examinations : 10/10 CGPA</li>
+      <li>All India CBSE class XII Examinations : 91%</li></ul>
+      Extra-curriculars:
+        <ul>
+        <li>Student council member : Public Relations Coordinator </li>
+        <li>Sports : Tennis, Table-tennis, Basketball</li>
+        <li> Active participation and accolades in quizzing, debates, dramatics</li></ul>
+        "
   languages:
     - language1:
       name: Marathi
@@ -77,3 +108,19 @@ author:
     - skill5:
       name: Java/Java EE
       percentage: 90%
+  Frameworks:
+    - skill1:
+      name: Django Python
+      percentage: 70%
+    - skill2:
+      name: Bootstrap CSS
+      percentage: 90%
+    - skill3:
+      name: CodeIgniter PHP
+      percentage: 60%
+    - skill4:
+      name: AngularJS
+      percentage: 60%
+    - skill5:
+      name: MeteorJS
+      percentage: 50%
