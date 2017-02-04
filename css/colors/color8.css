@@ -1,0 +1,38 @@
+/*
+===========================================================================
+			Primary Color: #C0392B; rgb(192, 57, 43)
+			Secondery Color: #102F44; rgb(146, 43, 33)
+===========================================================================
+*/			
+
+.header-area, .header-area.sticky, .border-btn, .source-btn, .live-btn, .section-title h2::after, .tab-menu ul li, .s-link::before, .footer-area, #scrollUp::before{
+	background: #C0392B none repeat scroll 0 0;
+}
+.bannerText h1 span, .about-containt h3, .contact-form input[type="submit"]  {
+    color: #C0392B;
+}
+.ih-item.square {
+    border: 4px solid #C0392B !important;
+}
+.border-btn:hover, .filter.active, .tab-menu ul li:hover, .s-link:hover::before, .source-btn:hover, .live-btn:hover{
+	background: #922B21;
+}
+.progress-bar-L1{
+	 background-color: #922B21;
+}
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+    border-bottom: 1px solid #922B21;
+}
+.contact-form input[type="submit"]:hover,
+.contact-form input[type="submit"]:focus {
+    background: #922B21;
+}
+.contact-form,
+.our-address {
+    background: rgba(192, 57, 43, 0.6);
+}
+.address-list ul li i{
+	box-shadow:  0 1px 4px 0 rgba(146, 43, 33, 1);
+}
