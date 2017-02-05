@@ -126,7 +126,7 @@
                             <h5>Software developer and Open-source enthusiast</h5>
                             <p>Hi, I am Rishabh Karajgi, pursuing my <strong>Computer Science & Engineering</strong> major from National Institute of Technology - Warangal and <strong>Technology, Entrepreneurship and Business minor</strong> from Indian School of Business - Hyderabad. My interest lies in Web and Mobile App development, Cloud Computing and Machine Learning. I like to solve my daily problems through code. </p>
 
-                            <div class="border-btn smoot-menu">Resume (contact me)</div>
+                            <div id="resbutton" class="border-btn smoot-menu">Resume (contact me)</div>
                             <!-- <button type="button" class="btn btn-default">Default</button> -->
                             <!-- <div class="first"><button type="button" class="btn btn-default">Click Me!</button></div> -->
                         </div>
@@ -696,11 +696,11 @@
             $(document).ready(function(){
             $('#lightgallery').lightGallery();
         });
-        $("first").click(function() {
-          $('html,body').animate({
-            scrollTop: $("#contact").offset().top},
-            'slow');
-          });
+        $("#resbutton").click(function() {
+          $('html, body').animate({
+            scrollTop: $("#contact").offset().top
+          }, 2000);
+        });
         </script>
 
         <!-- <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script> -->
