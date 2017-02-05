@@ -97,6 +97,7 @@
                                         <div class="menu-logo">
                                             <a href="../hrefs/blog.html" target="_blank">Blog</a>
                                         </div>
+                                        <!-- <div class="first"><button type="button">Click Me!</button></div> -->
                                     </div>
                                 </div>
                             </div>
@@ -125,7 +126,9 @@
                             <h5>Software developer and Open-source enthusiast</h5>
                             <p>Hi, I am Rishabh Karajgi, pursuing my <strong>Computer Science & Engineering</strong> major from National Institute of Technology - Warangal and <strong>Technology, Entrepreneurship and Business minor</strong> from Indian School of Business - Hyderabad. My interest lies in Web and Mobile App development, Cloud Computing and Machine Learning. I like to solve my daily problems through code. </p>
 
-                            <a href="#contact" class="border-btn smoot-menu">Resume (contact me)</a>
+                            <div class="border-btn smoot-menu">Resume (contact me)</div>
+                            <!-- <button type="button" class="btn btn-default">Default</button> -->
+                            <div class="first"><button type="button" class="btn btn-default">Click Me!</button></div>
                         </div>
                         <div class="col-lg-4 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-xs-12 wow slideInRight" data-wow-delay="0.3s">
                             <div class="membet-table">
@@ -693,6 +696,11 @@
             $(document).ready(function(){
             $('#lightgallery').lightGallery();
         });
+        $("first").click(function() {
+          $('html,body').animate({
+            scrollTop: $("#contact").offset().top},
+            'slow');
+          });
         </script>
 
         <!-- <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script> -->
@@ -709,7 +717,9 @@
             jQuery('body').append('<script src="js/color-switcher.js">');
         </script>
         <!-- Google Map js -->
-        <script src="https://maps.googleapis.com/maps/api/js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKZJ9cXFkRwgIhgBDgwlTiEWo7GvBz6J4&callback=initMap"
+  type="text/javascript"></script>
+        <!-- <script src="https://maps.googleapis.com/maps/api/js"></script> -->
         <script>function initialize() {var mapOptions = {zoom: 10,scrollwheel: false,center: new google.maps.LatLng(17.9883019,79.5285011)};var map = new google.maps.Map(document.getElementById('googleMap'),mapOptions);var marker = new google.maps.Marker({position: map.getCenter(),animation:google.maps.Animation.BOUNCE,icon: 'img/marker.png',map: map});}google.maps.event.addDomListener(window, 'load', initialize);</script>
         <!-- Main active js -->
         <script src="js/main.js"></script>

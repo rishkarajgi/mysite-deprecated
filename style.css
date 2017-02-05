@@ -588,7 +588,7 @@ ul#nav li a:hover {
   margin-top: 50px;
 }
 /*--------------------------
-    7.1. Portfolio Menu 
+    7.1. Portfolio Menu
 ----------------------------*/
 .tab-menu {
     margin-bottom: 50px;
@@ -617,7 +617,7 @@ ul#nav li a:hover {
     background: #17202A;
 }
 /*--------------------------
-    7.2. Single Portfolio 
+    7.2. Single Portfolio
 ----------------------------*/
 .single-protfolio {
     position: relative;
@@ -969,10 +969,3 @@ ul#nav li a:hover {
     50% { opacity:0; }
     100% { opacity:1; }
 }
-
-
-
-
-
-
-
