@@ -1,2 +1,2 @@
-# ryrahul.github.io
+# karajrish.github.io
 Personal Website
