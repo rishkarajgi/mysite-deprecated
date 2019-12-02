@@ -1,3 +1,2 @@
-# website
-My personal portfolio website
-
+# ryrahul.github.io
+Personal Website
